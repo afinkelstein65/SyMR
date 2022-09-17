@@ -5,5 +5,4 @@ A GUI for generating and viewing synthetic mri images.
 
 
 
-
-![MRI Icon](icon.png)
+<img src="icon.png" alt="drawing" width="200"/>
