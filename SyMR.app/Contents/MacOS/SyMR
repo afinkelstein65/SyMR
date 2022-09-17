@@ -1,0 +1,12 @@
+#!/bin/bash
+## Make sure to set PYTHONEXECUTABLE to Python that created this script
+export PYTHONEXECUTABLE=/Users/alanfinkelstein/Documents/PhD/Projects/EPGs/venv/bin/python
+export EXE=/Users/alanfinkelstein/Documents/PhD/Projects/EPGs/venv/bin/python
+export SCRIPT=/Users/alanfinkelstein/Documents/PhD/Projects/SyntheticMRIGUI/main.py
+export ARGS=''
+
+osascript -e 'tell application "Terminal"
+   do script "'${EXE}\ /Users/alanfinkelstein/Documents/PhD/Projects/SyntheticMRIGUI/main.py\ '"
+end tell
+'
+

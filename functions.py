@@ -19,6 +19,7 @@ class GUI(Tk):
         self.file = file
         self.window = Toplevel()
         self.window.title('SyMR - Synthetic MR')
+        self.window.configure(bg='gray')
 
         self.window.geometry("1000x1000+10+20")
         self.tmp = np.zeros((200,200))
@@ -29,7 +30,7 @@ class GUI(Tk):
         self.frame1.grid(row=0,column=0, columnspan=2)
 
         # LOGO
-        tmp_img = Image.open("images/tmp_logo.jpeg")
+        tmp_img = Image.open("/Users/alanfinkelstein/Documents/PhD/Projects/SyntheticMRIGUI/images/tmp_logo.jpeg")
         tmp_img = tmp_img.resize((100,100))
         self.photo = ImageTk.PhotoImage(tmp_img)
         self.label = Label(self.frame1, image=self.photo)
