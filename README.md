@@ -1,4 +1,4 @@
-# SyMR: A Graphical User Interface for Synthetic MRI <p align="right"> <img src="icon.png" alt="drawing" width="100"/> </p>
+# SyMR: A Graphical User Interface for Synthetic MRI <p align="right"> <img src="icon.png" alt="drawing" width="50"/> </p>
 
 A GUI for generating and viewing synthetic mri images. 
 
