@@ -7,6 +7,8 @@ A GUI for generating and viewing synthetic mri images.
 
 <img src="icon.png" alt="drawing" width="200"/>
 
+<img src="images/Sample.png" alt="Sample" width="300"/>
+
 ## Installation 
 
 To download use `git clone https://github.com/afinkelstein65/SyMR.git` or download zip file. 
