@@ -8,7 +8,7 @@ A GUI for generating and viewing synthetic mri images.
 <img src="icon.png" alt="drawing" width="100"/>
 
 <p align="center">
-<img src="images/Sample.png" alt="Sample" width="400"/>
+<img src="images/Sample.png" alt="Sample" width="500"/>
 </p>
 ## Installation 
 
